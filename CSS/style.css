@@ -1,21 +1,35 @@
+.navigation{
+  height: 10%;
+  background-color: #373738;
+}
+
 .inline-block {
   display: inline-block;
   vertical-align: top;
+  color: white;
 }
 
-div.logo {
-  width: 23%;
-  padding: 1%;
+li.inline-block{
+  margin-left: 3%;
+}
+
+.logo {
+  width: 40px;
+  margin-top: 40%;
+  margin-left: 40%;
 }
 
 nav {
-  width: 73%;
+  width: 90%;
   padding: 1%;
 }
 
 ul {
-  width: 50%;
-  margin-left: auto;
+  width: 95%;
+}
+
+ul.topbar{
+  text-align: right;
 }
 
 .logo {
@@ -23,6 +37,7 @@ ul {
 }
 
 section.heroImg {
+    align-content: center;
     height: 600px;
     padding: 25px;
 }
@@ -40,3 +55,18 @@ footer ul {
     display: inline-block;
     vertical-align: top;
 }
+
+.myself {
+  padding-left: 40%;
+  height: 100px;
+}
+.footer{
+  padding-left: 0;
+}
+.button{
+  margin-left: 33%;
+}
+/* *{
+  outline: 1px solid red;
+ } */
+ 
